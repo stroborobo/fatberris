@@ -7,7 +7,7 @@ player][2] (which uses Flash - seriously).
 
 Well, we're running an mpd.
 
-The command line tool for creating a m3u playlistfile is simply "fatberris",
+The command line tool for creating a m3u playlistfile is simply `fatberris`,
 but there's also a webservice where you can fetch it at [service.kbct.de][3].
 
 Have fun!

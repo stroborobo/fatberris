@@ -1,7 +1,7 @@
 fatberris-lib
 =============
 
-This utility fetches fat berrie's song list and prints the m3u file.
+A library that fetches fat berrie's song list and returns a m3u file.
 
 See the [Documentation][1] for usage.
 

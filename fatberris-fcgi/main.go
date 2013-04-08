@@ -23,19 +23,40 @@ const (
 <html>
 <head>
 	<title>Fat Berri's m3u</title>
+	<meta name="viewport" content="width=device-width" />
 	<style type="text/css">
-		body {font-family: sans-serif;}
+		body {
+			background:	#efefef;
+			margin:		0;
+		}
+		#content {
+			background:	#fff;
+			font-family:	sans-serif;
+			font-size:	16px;
+			max-width:	240px;
+			margin:		50px auto 0;
+			padding:	20px 30px;
+			box-shadow:	0px 0px 7px #555;
+		}
+		p > a, p > a:visited {
+			color:		#555;
+		}
+		small, small a {
+			color:		#aaa;
+		}
 	</style>
 </head>
 <body>
-	<p>What's your mood today?</p>
-	<p><a href="?mood=chill">Chill</a>
-	   <a href="?mood=up">Up</a>
-	   <a href="?mood=down">Down</a>
-	   <a href="?mood=mix">Mix</a></p>
-	<p><small>Streams provided by <a href="http://fatberris.com/">Fat Berri's</a><br>
-	          Converter by bo (<a href="http://kbct.de/">kbct.de</a>)<br>
-		  Sourcecode available at <a href="https://github.com/Knorkebrot/fatberris">github.com</a></small></p>
+	<div id="content">
+		<p>What's your mood today?</p>
+		<p><a href="?mood=chill">Chill</a>
+		   <a href="?mood=up">Up</a>
+		   <a href="?mood=down">Down</a>
+		   <a href="?mood=mix">Mix</a></p>
+		<p><small>Streams provided by <a href="http://fatberris.com/">Fat Berri's</a><br>
+			  Converter by bo (<a href="http://kbct.de/">kbct.de</a>)<br>
+			  Source code available at <a href="https://github.com/Knorkebrot/fatberris">github.com</a></small></p>
+	</div>
 </body>
 </html>
 `

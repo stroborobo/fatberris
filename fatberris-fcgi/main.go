@@ -62,7 +62,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	out, err := fatberris.GetMoods([]string{mood})
+	out, err := fatberris.GetM3u([]string{mood})
 	if err != nil {
 		http.Error(w, fmt.Sprintf("%v", err), http.StatusInternalServerError)
 		return

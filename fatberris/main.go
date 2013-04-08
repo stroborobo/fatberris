@@ -26,7 +26,7 @@ func main() {
 		os.Exit(2)
 	}
 
-	out, err := fatberris.GetMoods(moodArgs)
+	out, err := fatberris.GetM3u(moodArgs)
 	if err != nil {
 		log.Fatal(err)
 	}

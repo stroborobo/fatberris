@@ -28,7 +28,7 @@ const (
 	FEEDS string = "list.json"
 )
 
-func GetMoods(moodArgs []string) (string, error) {
+func GetM3u(moodArgs []string) (string, error) {
 	if len(moodArgs) == 0 {
 		return "", errors.New("No moods requested")
 	}

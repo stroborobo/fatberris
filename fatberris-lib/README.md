@@ -10,4 +10,4 @@ Installation
 
 	go get github.com/Knorkebrot/fatberris/fatberris-lib
 
-[1]: http://godoc/github.com/Knorkebrot/fatberris/fatberris-lib
+[1]: http://godoc.org/github.com/Knorkebrot/fatberris/fatberris-lib

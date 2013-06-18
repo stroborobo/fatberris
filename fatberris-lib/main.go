@@ -24,7 +24,7 @@ type Moods struct {
 }
 
 const (
-	URL_PREFIX string = "http://fatberris.com/music/"	// no ssl, sorry
+	URL_PREFIX string = "http://www.fatberris.com/music/"	// no ssl, sorry
 	FEEDS string = "list.json"
 )
 

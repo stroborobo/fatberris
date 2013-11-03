@@ -66,13 +66,11 @@ const (
 		<p><a href="?mood=chill">Chill</a>
 		   <a href="?mood=up">Up</a>
 		   <a href="?mood=down">Down</a>
-		   <a href="?mood=mix">Mix</a>
-		   <div style="clear:both;"></div>
-		</p>
+		   <a href="?mood=mix">Mix</a></p>
+		<div style="clear:both;"></div>
 		<p><small>Streams provided by <a href="http://fatberris.com/">Fat Berri's</a><br>
 			  Converter by bo (<a href="http://kbct.de/">kbct.de</a>)<br>
-			  Source code available at <a href="https://github.com/Knorkebrot/fatberris">github.com</a></small>
-		</p>
+			  Source code available at <a href="https://github.com/Knorkebrot/fatberris">github.com</a></small></p>
 	</div>
 </body>
 </html>

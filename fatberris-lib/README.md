@@ -8,6 +8,6 @@ See the [Documentation][1] for usage.
 Installation
 ------------
 
-	go get github.com/Knorkebrot/fatberris/fatberris-lib
+	go get github.com/stroborobo/fatberris/fatberris-lib
 
-[1]: http://godoc.org/github.com/Knorkebrot/fatberris/fatberris-lib
+[1]: http://godoc.org/github.com/stroborobo/fatberris/fatberris-lib

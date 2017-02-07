@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Knorkebrot/fatberris/fatberris-lib"
+	"github.com/stroborobo/fatberris/fatberris-lib"
 	"flag"
 	"io/ioutil"
 	"log"

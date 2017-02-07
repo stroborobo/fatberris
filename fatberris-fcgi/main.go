@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Knorkebrot/fatberris/fatberris-lib"
+	"github.com/stroborobo/fatberris/fatberris-lib"
 	"fmt"
 	"net/http"
 	"net/http/fcgi"
@@ -70,7 +70,7 @@ const (
 		<div style="clear:both;"></div>
 		<p><small>Streams provided by <a href="http://fatberris.com/">Fat Berri's</a><br>
 			  Converter by bo (<a href="http://kbct.de/">kbct.de</a>)<br>
-			  Source code available at <a href="https://github.com/Knorkebrot/fatberris">github.com</a></small></p>
+			  Source code available at <a href="https://github.com/stroborobo/fatberris">github.com</a></small></p>
 	</div>
 </body>
 </html>

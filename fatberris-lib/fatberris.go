@@ -1,31 +1,32 @@
 package fatberris
 
 import (
-	"github.com/Knorkebrot/m3u"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"io/ioutil"
 	"net/http"
-	"fmt"
 	"net/url"
 	"strings"
+
+	"github.com/stroborobo/m3u"
 )
 
 type Song struct {
 	Artist string
-	Title string
-	File string
+	Title  string
+	File   string
 }
 
 type Moods struct {
 	Sundaychillsession []Song
-	Downtempo []Song
-	Uptempo []Song
+	Downtempo          []Song
+	Uptempo            []Song
 }
 
 const (
-	URL_PREFIX string = "http://www.fatberris.com/music/"	// no ssl, sorry
-	FEEDS string = "list.json"
+	URL_PREFIX string = "http://www.fatberris.com/music/" // no ssl, sorry
+	FEEDS      string = "list.json"
 )
 
 func GetM3u(moodArgs []string) (string, error) {
@@ -35,8 +36,7 @@ func GetM3u(moodArgs []string) (string, error) {
 
 	var mix bool
 	for _, m := range moodArgs {
-		if m != "chill" && m != "up" &&
-		   m != "down" && m != "mix" {
+		if m != "chill" && m != "up" && m != "down" && m != "mix" {
 			return "", fmt.Errorf("Unknown mood: %s\n", m)
 		}
 		if m == "mix" {
@@ -94,7 +94,7 @@ func GetM3u(moodArgs []string) (string, error) {
 			songs = moods.Downtempo
 		}
 		for i, _ := range songs {
-			var song m3u.Song
+			song := &m3u.Song{}
 			title := make([]string, 0, 3)
 			if songs[i].Artist != "" {
 				title = append(title, songs[i].Artist)
